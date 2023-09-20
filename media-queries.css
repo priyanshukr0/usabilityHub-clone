@@ -1,0 +1,275 @@
+@media (max-width:955px) {
+  .navbar{
+    overflow: visible;
+  }
+  .navbar-items {
+    height:fit-content;
+    width: 100%;
+    
+     display: flex;
+     flex-direction: column;
+
+     padding-block: 2rem ;
+     position: absolute;
+     top: 100%;
+     left: -100%;
+
+     background-color: rgb(255, 255, 255);
+     transition: all 0.2s ease-in-out;
+    
+  }
+  .navbar-items.active{
+    left: 0;
+  }
+  
+  .nav-toggle {
+    display: block;
+  }
+
+  .company-logos {
+    flex-wrap: wrap;
+    column-gap: 4rem;
+    row-gap: 1.5rem;
+    justify-content: space-evenly;
+    height: 3.5rem;
+    margin-bottom: 10rem;
+  }
+
+  .company-logos img {
+    height: 100%;
+  }
+
+  .feature-detailed {
+    gap: 1rem;
+  }
+
+  .feature-desc {
+    gap: 1rem;
+  }
+
+  .managers img {
+    height: 3rem;
+  }
+
+  .example-card-wrapper {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .example-card-img {
+    width: 45%;
+    min-height: 12rem;
+  }
+
+  .example-card-text {
+    top: 60%;
+  }
+
+  .cta {
+    padding: 5rem 10rem;
+  }
+
+  .footer {
+    padding-block: 4rem;
+    justify-content: space-evenly;
+  }
+
+  .sub-footer {
+    gap: 0.5rem;
+  }
+
+  .footer-logo {
+    display: none;
+  }
+
+  .sub-footer-icons {
+    align-items: center;
+
+  }
+}
+
+
+/* for-medium-size-devices */
+@media (max-width:768px) {
+
+  .hero-section {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .hero-left {
+    width: 90%;
+    align-items: center;
+
+  }
+
+  .hero-left h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .hero-left p {
+    text-align: center;
+  }
+
+  .hero-right {
+    width: 90%;
+
+  }
+
+  .company-logos {
+    margin-bottom: 15rem;
+    column-gap: 3rem;
+    row-gap: 1rem;
+  }
+
+  .feature-heading{
+    align-items: center;
+  }
+
+  .features-cards{
+    justify-content: space-evenly;
+  }
+  .cards{
+    width:45% ;
+  }
+
+  .feature-detailed{
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .feature-img{
+    width: 90%;
+  }
+  .feature-desc{
+    width: 90%;
+    align-items: center;
+  }
+  .feature-desc p{
+    text-align: center;
+  }
+  .feature-right-side{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .example-card-text {
+    top: 50%;
+  }
+  .cta {
+    padding: 2rem 7rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding-block: 4rem;
+    justify-content: space-evenly;
+  }
+  .footer-box{
+    margin-block: 2rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .footer-logo{
+    width: 60%;
+  }
+  .sub-footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .sub-footer-icons{
+    width: 60%;
+    gap: 2rem;
+    justify-content:center;
+  }
+}
+
+/* for-small-sized-device-(Smartphones) */
+@media(max-width: 504px) {
+
+  .features-heading h2{
+    font: size 1.5rem; ;
+    text-align: center;
+
+  }
+  .cards{
+    width: 90%;
+  }
+
+  .feature-detailed{
+    align-items: center;
+  }
+  .feature-desc{
+    padding-right: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .feature-desc h4{
+    font-size: 1rem;
+  }
+  .feature-desc h2{
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .managers{
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  .managers img{
+    height: 2.1rem;
+  }
+
+  .example-card-heading{
+    padding: 2rem;
+     align-items: center;
+  }
+  .example-card-heading h2{
+    font: size 1.4rem;
+    text-align: center;
+  }
+  .example-card-img{
+    width: 90%;
+  }
+
+  .cta{
+    padding: 2rem 2rem;
+    gap: 0;
+
+  }
+  .cta p{
+    margin: 1.5rem;
+  }
+
+  .footer{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .footer-box{
+    align-items: center;
+  }
+  .footer-box h4{
+    font-size:1.8rem;
+  }
+  .footer-box p{
+    font-weight:bold;
+  }
+  .sub-footer{
+    padding:  2rem 2rem;
+
+  }
+  .sub-footer-left{
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
